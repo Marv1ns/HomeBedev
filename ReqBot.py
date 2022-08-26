@@ -36,4 +36,4 @@ def compare():
             send_message(chat_id,message_text,ROOT_URL)
             answered_update_id = update_id
 
-set_interval(4.0,compare)
+set_interval(3.0,compare)

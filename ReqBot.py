@@ -1,7 +1,7 @@
 import requests
 import time
 
-TOKEN = "5566918951:AAE8C_oQYdjA8K5GcmUUuyaPb3lpWhAAsx8"
+TOKEN = ""
 
 ROOT_URL = f"https://api.telegram.org/bot{TOKEN}"
 
@@ -36,4 +36,4 @@ def compare():
             send_message(chat_id,message_text,ROOT_URL)
             answered_update_id = update_id
 
-set_interval(4.0,compare)
+set_interval(3.0,compare)

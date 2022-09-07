@@ -9,7 +9,7 @@ level = 0
 
 user_dict['level'] = level
 
-word = 'a'.lower()
+word = 'family'.lower()
 
 beginner = ['Family is close relatives',
             'He and his family are very funny',
